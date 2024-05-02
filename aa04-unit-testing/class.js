@@ -44,5 +44,6 @@ class Word {
     }
   }
 }
-
+let word = new Word('word')
+console.log(word.pigLatin())
 module.exports = { Word };

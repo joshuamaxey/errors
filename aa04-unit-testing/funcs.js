@@ -10,7 +10,16 @@ function isOdd(number) {
 }
 
 function myRange(min, max, step = 1) {
-  // Your code here
+  let newArr = []
+
+  if (min > max) {
+    return newArr
+  }
+
+  for (let i = min; i <= max; i += step) {
+    newArr.push(i)
+  }
+  return newArr
 }
 
 
